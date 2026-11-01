@@ -1,0 +1,34 @@
+# Ambiente Virtual
+.venv/
+venv/
+ENV/
+
+# Python / Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Dados brutos originais do Kaggle (para não inflar o repositório)
+data/cs-training.csv
+data/cs-test.csv
+data/Data Dictionary.xls
+data/sampleEntry.csv
+
+# Sistema Operacional / Lixo de Diretório
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs e Arquivos Temporários
+*.log
+*.tmp
