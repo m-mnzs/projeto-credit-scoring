@@ -55,7 +55,7 @@ projeto-credit-scoring/
 │   └── cs-training.csv / cs-test.csv  # Dados brutos originais
 ├── models/
 │   ├── baseline_regressao_logistica.pkl # Modelo Baseline serializado (Joblib)
-│   └── xgboost_campeao.pkl            # Modelo Campeão XGBoost serializado (Joblib)
+│   └── xgboost.pkl            # Modelo Campeão XGBoost serializado (Joblib)
 ├── notebooks/
 │   ├── 02_eda_e_tratamento.ipynb      # Análise Exploratória e Tratamento de Missing
 │   ├── 03_feature_engineering.ipynb   # Criação de variáveis de domínio
